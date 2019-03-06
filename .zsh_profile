@@ -1,0 +1,8 @@
+#
+# ~/.zsh_profile
+#
+
+[[ -f ~/.zshrc ]] && . ~/.zshrc
+
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=/opt/flutter/bin:$PATH
